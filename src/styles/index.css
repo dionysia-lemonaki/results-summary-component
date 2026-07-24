@@ -11,7 +11,12 @@
 @theme {
   --font-sans: "Hanken Grotesk", sans-serif;
 
+  --color-navy-200: hsl(241 100% 89%);
   --color-blue-50: hsl(234 71% 97%);
+  --color-blue-500: hsl(241 81% 54%);
+  --color-blue-700: hsl(241 72% 46%);
+  --color-violet-400: hsl(252 100% 67%);
+  --color-violet-600: hsl(256 71% 46%);
 
   --leading-tight: 1.3;
 }
