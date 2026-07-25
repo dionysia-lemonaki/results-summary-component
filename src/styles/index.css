@@ -12,11 +12,19 @@
   --font-sans: "Hanken Grotesk", sans-serif;
 
   --color-navy-200: hsl(241 100% 89%);
+  --color-navy-950: hsl(224 30% 27%);
   --color-blue-50: hsl(234 71% 97%);
   --color-blue-500: hsl(241 81% 54%);
   --color-blue-700: hsl(241 72% 46%);
+  --color-blue-800: hsl(234 85% 45%);
   --color-violet-400: hsl(252 100% 67%);
   --color-violet-600: hsl(256 71% 46%);
+  --color-red-50: hsl(0 100% 98%);
+  --color-red-400: hsl(0 100% 67%);
+  --color-yellow-50: hsl(38 100% 98%);
+  --color-yellow-400: hsl(39 100% 56%);
+  --color-green-50: hsl(162 63% 97%);
+  --color-green-500: hsl(166 100% 37%);
 
   --leading-tight: 1.3;
 }
