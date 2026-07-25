@@ -8,9 +8,9 @@ interface ResultsCardProps {
 
 const ResultsCard = ({ results }: ResultsCardProps) => {
   return (
-    <div>
-      <h2>Summary</h2>
-      <ul>
+    <div className="p-8 pt-6 flex flex-col gap-6">
+      <h2 className="text-navy-950 text-lg font-bold">Summary</h2>
+      <ul className="flex flex-col gap-4">
         {results.map((result) => (
           <ResultItem
             key={result.id}

@@ -10,7 +10,7 @@ const App = () => {
   const finalScore = Math.floor(sumOfScores / results.length);
   return (
     <main>
-      <div>
+      <div className="min-h-dvh bg-white">
         <FinalScoreCard finalScore={finalScore} />
         <ResultsCard results={results} />
       </div>
