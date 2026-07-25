@@ -37,7 +37,7 @@ const ResultItem = ({ icon, category, score }: ResultItemProps) => {
           {category}
         </p>
       </div>
-      <p className="font-bold text-navy-950">
+      <p className="font-bold md:text-lg text-navy-950">
         <span>{score}</span>
         <span className="opacity-50"> / 100</span>
       </p>
